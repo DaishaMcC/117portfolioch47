@@ -1,0 +1,43 @@
+{% extends 'base.html' %}
+
+{% block title %}About Me{% endblock title %}
+{% load static %}
+
+{% block content %}
+
+<section class="about-section center-row">
+    
+    <div class="about-image-container center-row">
+        <img src="{% static './img/logo.png' %}" alt="logo">
+    </div>
+
+    <div class="about-description-container center-colum">
+        <h1>My Role as a Developer</h1>
+        <h2>Daisha McCutcheon</h2>
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex quidem suscipit amet quas eligendi. Sapiente repellat neque voluptates veniam cumque voluptate provident temporibus, a aliquam explicabo laboriosam mollitia esse vero!
+        Sed minima ipsum cumque, laboriosam neque minus atque a odio? Voluptate, aperiam mollitia tempore quos temporibus pariatur, praesentium nulla eos exercitationem ducimus sunt sapiente perspiciatis vero nemo! Illo, aperiam nam?<br><br>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis, placeat, totam optio nemo architecto nihil itaque nulla, fuga amet adipisci ipsum velit fugiat voluptatum explicabo laboriosam a officia quisquam ab.
+        Quod, itaque voluptates dignissimos quae laborum incidunt necessitatibus modi esse velit voluptate recusandae, consequuntur dolore facilis doloribus dolorem perspiciatis tempora id hic autem nesciunt iusto. Ex delectus aspernatur quisquam labore.
+        </p>
+
+            <div class="skills-container center-column">
+                <h2>My Skills</h2>
+
+                <div class="skills-list center-row">
+                <label class="text-label">JavaScript</label>
+                <label class="text-label">HTML</label>
+                <label class="text-label">React</label>
+                <label class="text-label">CSS</label>
+                <label class="text-label">Django</label>
+                <label class="text-label">Python</label>
+                <label class="text-label">Flask</label>
+                <label class="text-label">Web API</label>
+                <label class="text-label">JQuery</label>
+                <label class="text-label">Datastructure</label>
+                </div>
+            </div>
+    </div>
+</section>
+
+{% endblock content %}

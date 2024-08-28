@@ -1,0 +1,88 @@
+:root {
+    --primary-color: #af9fff;
+    --primary-color-100: #d5ccff;
+    --primary-color-300: #7f66ff;
+
+    --secondary-color: #025834;
+    --secondary-color-100: #04c876;
+    --secondary-color-300: #01321E;
+
+    --nuetral-color: #E0E0E0;
+    
+    --background-color: #1B1B1B;
+    --surface-color: #252525;
+
+    --lobster-font: "Lobster Two", sans-serif;
+    --DM-font: "DM Sans", sans-serif;
+}
+
+
+* {
+    font-family: var(--DM-font);
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+html {
+    font-size: 16px;
+    background-color: var(--background-color);
+}
+
+h1 {
+    color: var(--secondary-color-600);
+    font-size: 2rem;
+    text-decoration: uppercase;
+}
+
+h2 {
+    font-family: var(--lobster-font);
+    color: var(--primary-color);
+    font-size: 1.8rem;
+    letter-spacing: 0.06rem;
+}
+
+p, label {
+    color: var(--nuetral-color);
+    line-height: 1.5rem;
+    font-size: 1.1rem;
+}
+
+.text-label {
+    color: var(--background-color);
+    background-color: var(--primary-color-100);
+    text-transform: uppercase;
+    font-weight: 600;
+    padding: 0.8rem 1.5rem;
+    font-size: 1.1rem;
+}
+
+.center-row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.center-column {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+footer {
+    background-color: #af9fff;
+    height: 43px;
+    position: sticky;
+    top: 0px;
+}
+.small-text {
+    font-size: 0.6rem;
+    color: gray;
+}
+.nav-options {
+    flex-wrap: wrap;
+}
+.nav-menu {
+    display: flex;
+}
